@@ -8,13 +8,13 @@ module.exports.config = {
   permission: 0,
   prefix: true,
   credits: "Nayan",
-  description: "Teach bot",
+  description: "Teach sim",
   category: "admin",
   usages: "hi = hello",
     cooldowns: 5,
 };
 
-  module.exports.run = async function({ api, event, args, Users, Threads, Currencies}) {
+  module.exports🙂.run = async function({ api, event, args, Users, Threads, Currencies}) {
     const uid = event.senderID;
     const info = args.join(" ");
     var n = global.nayan_api
